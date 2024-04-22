@@ -1,0 +1,12 @@
+id,label,description,alias,instance_P2,subclass_P1,Beispiel
+Q1,SKOS Plus Class,Basic Class,skp:Concept,,,
+Q2,Concept,SKOS Concept,skos:Concept,,Q1,Keramik
+Q3,Structural Concept,Concept with structuring function,skp:StructualConcept,,Q2,[Objekt-Wekstoff]
+Q4,Concept Scheme,SKOS Concept Scheme,skos:ConceptScheme,,Q1,
+Q5,Repository,External Repository,,,Q1,
+Q6,LEIZA Restaurierungs- und Konservierungsthesaurus,"Konservierungs- und Restaurierungsprozesse, bzw. Erhaltungsprozesse. DIN EN 15898:2020-02: Prozess des Entscheidens, Planens und Umsetzens.",,Q4,,
+Q7,Kristina Fella,Conservator at LEIZA,wd:Q125400666,Q2,,
+Q8,LEIZA KB Restaurierung/Konservierung,Department at LEIZA,,Q2,,
+Q9,Wikidata,Wikidata Repository,,Q5,,
+Q10,Wikipedia,Wikipedia Repository,,Q5,,
+Q11,Getty AAT,Getty AAT Repository,,Q5,,
