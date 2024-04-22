@@ -46,3 +46,15 @@ LAST	Den	"Wikipedia Repository"
 CREATE
 LAST	Len	"Getty AAT"
 LAST	Den	"Getty AAT Repository"
+
+Q2	P1	Q1
+Q3	P1	Q2
+Q4	P1	Q1
+Q5	P1	Q1
+
+Q6	P2	Q4
+Q7	P2	Q2
+Q8	P2	Q2
+Q9	P2	Q5
+Q10	P2	Q5
+Q11	P2	Q5
