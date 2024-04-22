@@ -1,0 +1,26 @@
+id,label,description,alias,Data Type,prop. type,Type,Beispiel
+P1,subclass of,S subclass of O,rdfs:subClassOf|wdt:P279,Item,Item,skos,
+P2,instance of,S instance of O,rdf:type|wdt:P31,Item,Item,skos,
+P3,in scheme,S is in concept scheme O,skos:inScheme,Item,Item,skos,Q5
+P4,notation / identifier,S has identifier,skos:notation,String,Item,skos,B45F2C
+P5,top concept of,S is the top concept of scheme O,skos:topConceptOf,Item,Item,skos,Q5
+P6,has top concept,S has the top concept O,,Item,Item,skos,
+P7,broader,S has a broader concept O,skos:broader,Item,Item,skos,Qx
+P8,narrower,S has a narrower concept O,skos:narrower,Item,Item,skos,Qy
+P9,related,S has a related concept O,skos:related,Item,Item,skos,Qz
+P10,broad match,[qualifier] S has a concept broader match O,skos:broadMatch,URL,qualifier,skos,
+P11,narrow match,[qualifier] S has a concept narrower match O,skos:narrowMatch,URL,qualifier,skos,
+P12,related match,[qualifier] S has a concept related match O,skos:relatedMatch,URL,qualifier,skos,
+P13,close match,[qualifier] S has a concept close match O,skos:closeMatch,URL,qualifier,skos,
+P14,exact match,[qualifier] S has a concept exact match O,skos:exactMatch,URL,qualifier,skos,
+P15,see also,[qualifier] S has more information about O,rdfs:seeAlso,URL,qualifier,wb,
+P16,reference URL,[reference] S has reference URL O,wdt:P854,URL,reference,wb,siehe source
+P17,aligned with,S is aligned with resource O,,URL,Item,wb,http://vocab.getty.edu/page/aat/300235507
+P18,alignment type,[qualifier] Statement has alignment type O,skos:semanticRelation,Property,qualifier,wb,P13
+P19,alignment repository,[qualifier] Statement has alignment repository O,,Item,qualifier,wb,Q10
+P20,creator,S has creator O,dc:creator,Item,Item,rest,Kristina Fella; LEIZA KB Restaurierung/Konservierung
+P21,identifier label,S has identifier label,skos:prefLabel,Monolingual text,Item,rest,Metall@de
+P22,alternative label,S has alternative label,skos:altLabel,Monolingual text,Item,rest,Metalle@de
+P23,translation,S has translation,,Monolingual text,Item,rest,métal@fr
+P24,description,S has description,skos:scopeNote,Monolingual text,Item,rest,"""Metalle (von altgriechisch μέταλλον metallon „Bergwerk, Erz, Metall“) bilden diejenigen chemischen Elemente, die sich im Periodensystem der Elemente links und unterhalb einer Trennungslinie von Bor bis Astat befinden.""@de"
+P25,has source,S has source,,URL,Item,rest,http://www.wikidata.org/entity/Q125400047
